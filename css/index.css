@@ -1,0 +1,296 @@
+.carousel-caption h5 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: white;
+  font-weight: 900;
+  font-size: 40px;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+}
+.carousel-caption p {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: white;
+  font-weight: 700;
+  font-size: 30px;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: rgb(0, 8, 255);
+}
+.middleNav a {
+  text-decoration: none;
+}
+.optionNav div h1 {
+  color: rgb(25, 0, 0);
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 700;
+}
+.optionNav div p {
+  color: rgb(124, 124, 124);
+  position: relative;
+  top: -5px;
+  font-size: 16px;
+}
+.optionNav div {
+  margin-top: 20px;
+  margin-left: 15px;
+}
+.optionNav {
+  display: flex;
+  flex-wrap: nowrap;
+}
+.middleNav {
+  position: relative;
+  top: -18px;
+  display: flex;
+  padding: 50px 40px;
+  max-width: 100%;
+  min-width: 80%;
+  width: fit-content;
+  overflow: hidden;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.programsContainer {
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px;
+}
+.programsContainer div img {
+  height: 500px;
+  width: 280px;
+}
+.programsOptions div {
+  display: flex;
+}
+.options {
+  position: relative;
+  top: 17px;
+}
+.options span {
+  font-size: 22px;
+  font-weight: 500;
+  padding: 20px 15px;
+  background-color: rgb(213, 0, 0);
+}
+.academicMessageContainer {
+  position: absolute;
+}
+.academicMessage {
+  position: relative;
+  top: 67px;
+  left: 280px;
+  background-color: aqua;
+  min-height: 433px;
+  max-height: 433px;
+  max-width: 100%;
+  min-width: 685px;
+}
+@media only screen and (max-width: 992px) {
+  .middleNav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .programsContainer div img {
+    display: none;
+  }
+  .academicMessageContainer {
+    position: absolute;
+  }
+  .academicMessage {
+    position: relative;
+    top: 67px;
+    left: 0px;
+    background-color: aqua;
+    min-height: 433px;
+    max-height: 433px;
+    max-width: 100%;
+    min-width: 685px;
+  }
+
+  .options span {
+    font-size: 19px;
+    font-weight: 500;
+    padding: 10px 5px;
+    background-color: rgb(213, 0, 0);
+  }
+}
+@media only screen and (max-width: 992px) {
+  .carousel-control-next-icon {
+    opacity: 0;
+  }
+  .carousel-control-prev-icon {
+    opacity: 0;
+  }
+  .carousel-control-prev {
+    display: none;
+  }
+  .carousel-control-next {
+    display: none;
+  }
+}
+body {
+  background-color: rgb(199, 199, 199);
+}
+.siteFooter {
+  background-color: rgb(3, 0, 103);
+  padding-bottom: 0px !important;
+}
+.footerHead {
+  color: white;
+}
+.footerSiteInfo {
+  color: rgb(189, 189, 189) !important;
+}
+.footerLink {
+  color: rgb(202, 202, 202) !important;
+  font-weight: 600;
+  text-decoration: none;
+}
+.footerContact {
+  color: rgb(225, 27, 27) !important;
+  font-weight: 600;
+}
+.copyrightText {
+  color: rgb(217, 217, 217);
+}
+.copyrightText b {
+  color: white !important;
+}
+.socialMedia i {
+  font-size: 28px;
+  color: white !important;
+}
+.socialMedia:hover {
+  background: none;
+}
+.socialMedia {
+  padding: 5px 10px;
+  border: none;
+}
+.sM-link:hover {
+  color: rgb(255, 62, 62) !important;
+  font-size: 30px;
+}
+.sM-fb:hover {
+  color: rgb(66, 103, 178) !important;
+  font-size: 30px;
+}
+.sM-ig:hover {
+  color: rgb(255, 59, 59) !important;
+  font-size: 30px;
+}
+.sM-twitter:hover {
+  color: rgb(30, 90, 255) !important;
+  font-size: 30px;
+}
+.sM-github:hover {
+  color: rgb(255, 106, 0) !important;
+  font-size: 30px;
+}
+.copyrightSegment {
+  padding-top: 30px !important;
+  background-color: rgb(4, 0, 123) !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  flex-wrap: wrap !important;
+  min-width: 100% !important;
+  padding-bottom: 20px !important;
+  position: relative;
+  top: 10px;
+}
+.SM-Links {
+  display: inline !important;
+}
+.benefitSection {
+  background-color: rgb(255, 255, 255) !important;
+  padding-top: 0px;
+  margin-top: 40px;
+}
+.flaticon-best-learning::before{
+  content:"";
+  background-image : url("../img/environment1.png");
+  width: 60px;
+  height: 60px;
+  display: inline-block;
+  background-size: cover;
+  margin-right: 10px;
+  position: relative;
+  top: 10px;
+}
+.services1:hover .flaticon-best-learning::before{
+  content:"";
+  background-image : url("../img/environment2.png");
+  width: 60px;
+  height: 60px;
+  display: inline-block;
+  background-size: cover;
+  margin-right: 10px;
+  position: relative;
+  top: 10px;
+}
+.flaticon-2::before{
+  content:"";
+  background-image : url("../img/learning.png");
+  width: 60px;
+  height: 60px;
+  display: inline-block;
+  background-size: cover;
+  margin-right: 10px;
+  position: relative;
+  top: 10px;
+}
+.services2:hover .flaticon-2::before{
+  content:"";
+  background-image : url("../img/learning-2.png");
+  width: 60px;
+  height: 60px;
+  display: inline-block;
+  background-size: cover;
+  margin-right: 10px;
+  position: relative;
+  top:10px;
+}
+.flaticon-3::before{
+  content:"";
+  background-image : url("../img/expert1.png");
+  width: 60px;
+  height: 60px;
+  display: inline-block;
+  background-size: cover;
+  margin-right: 10px;
+  position: relative;
+  top: 10px;
+}
+.services3:hover .flaticon-3::before{
+  content:"";
+  background-image : url("../img/expert2.png");
+  width: 60px;
+  height: 60px;
+  display: inline-block;
+  background-size: cover;
+  margin-right: 10px;
+  position: relative;
+  top: 10px;
+}
+.services{
+  padding: 20px 40px;
+  cursor: pointer;
+  border-radius: 12px;
+}
+.services:hover{
+  background-color: rgb(255, 44, 44);
+  color: white;
+}
+.services:hover .text p{
+  color: rgb(244, 243, 243);
+}
+.text h2{
+  font-size: 20px;
+}
+.text p{
+font-size: 16px;
+color: gray;
+}

@@ -1,0 +1,115 @@
+.main {
+  min-width: 100%;
+  min-height: calc(100vh - 67px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../img/bg.webp);
+  background-size: contain;
+}
+.loginContainer {
+  width: 400px;
+  max-width: 90%;
+  background-color: white;
+  padding: 50px 10px;
+  border-radius: 20px;
+  -webkit-box-shadow: 2px 6px 21px -2px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 2px 6px 21px -2px rgba(0, 0, 0, 0.75);
+  box-shadow: 2px 6px 21px -2px rgba(0, 0, 0, 0.75);
+}
+.loginImg {
+  max-width: 100%;
+  height: auto;
+}
+.inputField {
+  width: 400px;
+  max-width: 90%;
+  margin-left: 5%;
+  height: 50px;
+  margin-top: 16px;
+  padding: 10px 15px;
+  background-color: rgb(245, 245, 245);
+  border-radius: 15px;
+  outline: none;
+  border: 1px solid rgb(189, 189, 189);
+}
+.loginText {
+  margin-left: 5%;
+}
+.formBtn {
+  width: 400px;
+  max-width: 90%;
+  margin-left: 5%;
+  height: 45px;
+  margin-top: 16px;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: 500;
+  color: white;
+  border: none;
+}
+.loginBtn {
+  background-color: rgb(53, 120, 255);
+}
+.loginBtn:active {
+  background-color: rgb(105, 155, 255);
+}
+.loginBtn:hover {
+  background-color: rgb(0, 85, 255);
+}
+.signupBtn {
+  background-color: rgb(255, 53, 53);
+}
+.signupBtn:hover {
+  background-color: rgb(255, 0, 0);
+}
+.signupBtn:active {
+  background-color: rgb(255, 104, 104);
+}
+.loginText p{
+    color: rgb(99, 99, 99);
+}
+.loginText h1{
+    color: rgb(44, 44, 44);
+    font-size: 32px;
+}
+.orText{
+    width: 100%;
+    text-align: center;
+    margin-top: 5px;
+    font-size: 25px;
+}
+.rememberContainer{
+    margin-left: calc(5% + 4px);
+    margin-top: 10px;
+}
+.rememberMe{
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+}
+.rememberContainer label{
+    position: relative;
+    top: -2px;
+    color: rgb(93, 90, 90);
+    font-size: 15px;
+}
+.fPwdContainer{
+    margin-left: calc(5% + 4px);
+    margin-top: 10px;
+}
+.forgotPwd{
+text-decoration: none;
+color: rgb(0, 85, 255);
+}
+.pwdShow{
+    font-size: 32px;
+    float: right;
+    position: relative;
+    top: -40px;
+    right: 30px;
+    display: none;
+}
+.pwdField{
+    padding-right: 50px;
+}

@@ -1,0 +1,67 @@
+body {
+    background-color: rgb(226, 226, 226);
+  }
+  .logoSite {
+    width: 240px;
+    height: 42px;
+  }
+  @media only screen and (min-width: 992px) {
+    .dropdown-toggle::after {
+      content: none;
+    }
+  }
+  
+    
+  
+  
+  .nav-link,
+  .nav-item,
+  .active {
+    color: rgb(23, 23, 23);
+    font-size: 18px;
+    font-weight: 500;
+  }
+  .nav-link:hover {
+    color: rgb(0, 0, 0);
+  }
+  .collapse {
+    position: relative;
+  }
+  
+  
+  .navbar-nav > li {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .dropdown-menu {
+    background-color: rgb(240, 240, 240);
+    border-radius: 5px;
+  }
+  
+  .dropdown-item {
+    color: rgb(79, 79, 79);
+    font-size: 15px;
+  }
+  .dropdown-item:hover {
+    background-color: rgb(239, 239, 239);
+    color: rgb(79, 79, 79);
+  }
+  @media only screen and (max-width: 992px) {
+      .dropdown-menu{
+       background-color: rgb(255, 255, 255);
+      }
+     }
+     @media all and (min-width: 992px) {
+      .navbar .nav-item .dropdown-menu {
+        display: none;
+      }
+      .navbar .nav-item:hover .nav-link {
+      }
+      .navbar .nav-item:hover .dropdown-menu {
+        display: block;
+      }
+      .navbar .nav-item .dropdown-menu {
+        margin-top: 0;
+      }
+    }
+  
