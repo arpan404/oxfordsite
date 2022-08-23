@@ -294,3 +294,15 @@ body {
 font-size: 16px;
 color: gray;
 }
+.clzVideo{
+  position: relative;
+  z-index: 0;
+  top: -50px;
+
+}
+.middleNavContainer{
+  position: relative;
+  width: 100%;
+  height: fit-content;
+  top: -80px;
+}
