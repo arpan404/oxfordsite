@@ -209,9 +209,9 @@ body {
   padding-top: 0px;
   margin-top: 40px;
 }
-.flaticon-best-learning::before{
-  content:"";
-  background-image : url("../img/environment1.png");
+.flaticon-best-learning::before {
+  content: "";
+  background-image: url("../img/environment1.png");
   width: 60px;
   height: 60px;
   display: inline-block;
@@ -220,9 +220,9 @@ body {
   position: relative;
   top: 10px;
 }
-.services1:hover .flaticon-best-learning::before{
-  content:"";
-  background-image : url("../img/environment2.png");
+.services1:hover .flaticon-best-learning::before {
+  content: "";
+  background-image: url("../img/environment2.png");
   width: 60px;
   height: 60px;
   display: inline-block;
@@ -231,9 +231,9 @@ body {
   position: relative;
   top: 10px;
 }
-.flaticon-2::before{
-  content:"";
-  background-image : url("../img/learning.png");
+.flaticon-2::before {
+  content: "";
+  background-image: url("../img/learning.png");
   width: 60px;
   height: 60px;
   display: inline-block;
@@ -242,20 +242,9 @@ body {
   position: relative;
   top: 10px;
 }
-.services2:hover .flaticon-2::before{
-  content:"";
-  background-image : url("../img/learning-2.png");
-  width: 60px;
-  height: 60px;
-  display: inline-block;
-  background-size: cover;
-  margin-right: 10px;
-  position: relative;
-  top:10px;
-}
-.flaticon-3::before{
-  content:"";
-  background-image : url("../img/expert1.png");
+.services2:hover .flaticon-2::before {
+  content: "";
+  background-image: url("../img/learning-2.png");
   width: 60px;
   height: 60px;
   display: inline-block;
@@ -264,9 +253,9 @@ body {
   position: relative;
   top: 10px;
 }
-.services3:hover .flaticon-3::before{
-  content:"";
-  background-image : url("../img/expert2.png");
+.flaticon-3::before {
+  content: "";
+  background-image: url("../img/expert1.png");
   width: 60px;
   height: 60px;
   display: inline-block;
@@ -275,32 +264,58 @@ body {
   position: relative;
   top: 10px;
 }
-.services{
+.services3:hover .flaticon-3::before {
+  content: "";
+  background-image: url("../img/expert2.png");
+  width: 60px;
+  height: 60px;
+  display: inline-block;
+  background-size: cover;
+  margin-right: 10px;
+  position: relative;
+  top: 10px;
+}
+.services {
   padding: 20px 40px;
   cursor: pointer;
   border-radius: 12px;
 }
-.services:hover{
+.services:hover {
   background-color: rgb(255, 44, 44);
   color: white;
 }
-.services:hover .text p{
+.services:hover .text p {
   color: rgb(244, 243, 243);
 }
-.text h2{
+.text h2 {
   font-size: 20px;
 }
-.text p{
-font-size: 16px;
-color: gray;
+.text p {
+  font-size: 16px;
+  color: gray;
 }
-.clzVideo{
+.clzVideo {
   position: relative;
   z-index: 0;
   top: -50px;
-
+  min-height: 300px !important;
+  display: hidden;
 }
-.middleNavContainer{
+@media only screen and (max-width: 400px){
+  .clzVideo{
+    position: relative;
+    top: -10px;
+    height: fit-content !important;
+  }
+}
+@media only screen and (max-width: 800px){
+  .clzVideo{
+    position: relative;
+    top: -10px;
+    height: fit-content !important;
+  }
+}
+.middleNavContainer {
   position: relative;
   width: 100%;
   height: fit-content;
