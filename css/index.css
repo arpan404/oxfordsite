@@ -297,27 +297,15 @@ body {
 .clzVideo {
   position: relative;
   z-index: 0;
-  top: -50px;
-  min-height: 300px !important;
-  display: hidden;
+  max-width: 100%;
+ 
 }
-@media only screen and (max-width: 400px){
-  .clzVideo{
-    position: relative;
-    top: -10px;
-    height: fit-content !important;
-  }
+.videoContainer{
+  padding-top: 70px;
 }
-@media only screen and (max-width: 800px){
-  .clzVideo{
-    position: relative;
-    top: -10px;
-    height: fit-content !important;
-  }
-}
+
 .middleNavContainer {
   position: relative;
   width: 100%;
   height: fit-content;
-  top: -80px;
 }
